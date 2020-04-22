@@ -10,9 +10,9 @@
         android:title="Announcement"
         android:icon="@drawable/promotion"/>
 
-    <item android:id="@+id/gallery"
-        android:title="Gallery"
-        android:icon="@drawable/gallery"/>
+<!--    <item android:id="@+id/gallery"-->
+<!--        android:title="Gallery"-->
+<!--        android:icon="@drawable/gallery"/>-->
     <item android:id="@+id/profile"
         android:title="Profile"
         android:icon="@drawable/user"/>

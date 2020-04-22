@@ -8,6 +8,7 @@ public class Constants {
 
     public static final String LOGINSTATUS ="LOGINSTATUS";
     public static final String LOGIN ="LOGIN";
+    public static final String LOGOUTSTATUS="LOGOUTSTATUS";
     public static final String logout="logout";
 
 

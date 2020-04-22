@@ -75,6 +75,7 @@ BottomNavigationView bottomNavigationView;
                        break;
                    case R.id.location:
                        //  Toast.makeText(MainActivity.this, "Favorites", Toast.LENGTH_SHORT).show();
+                       startActivity(new Intent(MainActivity.this,MapsActivity.class));
                        break;
                    /*case R.id.profile:
                        // Toast.makeText(MainActivity.this, "Nearby", Toast.LENGTH_SHORT).show();
@@ -83,8 +84,12 @@ BottomNavigationView bottomNavigationView;
                        startActivity(new Intent(MainActivity.this,AnnouncementActivity.class));
                       // finish();
                        break;
-                   case R.id.gallery:
+                   /*case R.id.gallery:
                        startActivity(new Intent(MainActivity.this,GalleryActivity.class));
+                       break;*/
+                   case R.id.profile:
+                       startActivity(new Intent(MainActivity.this,ProfileActivity.class));
+
                }
                return true;
            }

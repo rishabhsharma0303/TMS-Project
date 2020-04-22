@@ -56,10 +56,10 @@ BottomNavigationView bottomNavigationView;
                    startActivity(new Intent(AnnouncementActivity.this,AnnouncementActivity.class));
 
 
-                }if(menuItem.getItemId()==R.id.gallery){
+                }/*if(menuItem.getItemId()==R.id.gallery){
                     startActivity(new Intent(AnnouncementActivity.this,GalleryActivity.class));
                 }
-
+*/
                 return true;
             }
        });
